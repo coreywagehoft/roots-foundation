@@ -32,7 +32,7 @@ Anyone and everyone is welcome to contribute. There are several ways you can hel
 
 * Source: [https://github.com/coreywagehoft/roots-foundation](https://github.com/coreywagehoft/roots-foundation)
 * Twitter: [@coreywagehoft](https://twitter.com/#!/coreywagehoft)
-* Contributors: [https://github.com/retlehs/roots/contributors](https://github.com/retlehs/roots/contributors)
+* Contributors: [https://github.com/coreywagehoft/roots-foundation/contributors](https://github.com/coreywagehoft/roots-foundation/contributors)
 
 ## License
 
