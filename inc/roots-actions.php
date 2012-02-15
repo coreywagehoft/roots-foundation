@@ -4,14 +4,16 @@ add_action('roots_stylesheets', 'roots_get_stylesheets');
 
 function roots_get_stylesheets() {
   $styles = '';
-  $styles .= stylesheet_link_tag('/style.css', 1);
-  $styles .= stylesheet_link_tag('/bootstrap.css', 1);
-
-  if (BOOTSTRAP_RESPONSIVE) {
-    $styles .= stylesheet_link_tag('/bootstrap-responsive.css', 1);
-  }
-
+  $styles .= stylesheet_link_tag('/globals.css', 1);
+  $styles .= stylesheet_link_tag('/typography.css', 1);
+  $styles .= stylesheet_link_tag('/grid.css', 1);
+  $styles .= stylesheet_link_tag('/ui.css', 1);
+  $styles .= stylesheet_link_tag('/forms.css', 1);
+  $styles .= stylesheet_link_tag('/orbit.css', 1);
+  $styles .= stylesheet_link_tag('/reveal.css', 1);
   $styles .= stylesheet_link_tag('/app.css', 1);
+  $styles .= stylesheet_link_tag('/mobile.css', 1);
+  $styles .= stylesheet_link_tag('/presentation.css', 1);
 
   if (is_child_theme()) {
     $styles .= "\t<link rel=\"stylesheet\" href=\"" . get_stylesheet_uri(). "\">\n";
