@@ -4,13 +4,13 @@ Roots is a starting WordPress theme made for developers that’s based on [HTML5
 
 ## Quick start
 
-* Clone the git repo - `git clone git://github.com/retlehs/roots.git` - or [download it](https://github.com/retlehs/roots/zipball/master)
+* Clone the git repo - `git clone git://github.com/coreywagehoft/roots-foundation.git` - or [download it](https://github.com/coreywagehoft/roots-foundation/zipball/master)
 * Read [Theme Activation](https://github.com/retlehs/roots/wiki/Theme-activation) to understand everything that happens once you activate Roots
 
 ## Features
 
 * HTML5 Boilerplate’s markup, style, and .htaccess
-* Bootstrap from Twitter
+* Foundation from ZURB
 * Clean URLs (no more `/wp-content/`)
 * All static theme assets are rewritten to the website root (`/css/`, `/img/`, and `/js/`)
 * Cleaner HTML output of navigation menus
